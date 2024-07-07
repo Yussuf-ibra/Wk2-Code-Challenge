@@ -1,3 +1,8 @@
+ ## SHOPPING LIST
+
+Run with a computer that uses (Linux,Mac OS or Windows 8+0) To get Access; Open your browser ; and deploy the link below;
+
+
 Date, 2024/7/7
 By Yussuf Ibrahim
 

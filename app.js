@@ -36,21 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        const editButton = document.createElement('button');
-            editButton.textContent = 'Edit';
-            editButton.addEventListener('click', () => {
-                if (editButton.textContent === 'Edit') {
-                    itemText.readOnly = false;
-                    itemText.focus();
-                    editButton.textContent = 'Save';
-                } else {
-                    itemText.readOnly = true;
-                    items[index].name = itemText.value;
-                    saveItems();
-                    editButton.textContent = 'Edit';
-                }
-            });
-            
         const purchaseButton = document.createElement('button');
         purchaseButton.textContent = 'Purchased';
         purchaseButton.addEventListener('click', () => {
@@ -92,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     clearButton.addEventListener('click', () => {
         items = [];
         renderList();
-        saveItems();
+        saveItems()
     });
 
     renderList();

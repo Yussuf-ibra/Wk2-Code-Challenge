@@ -34,12 +34,12 @@ button {
 }
 
 #add-button {
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
 }
 
 #clear-button {
-    background-color: #f44336;
+    background-color: red;
     color: white;
 }
 
@@ -51,7 +51,7 @@ ul {
 li {
     padding: 10px;
     margin: 5px 0;
-    background-color: #f9f9f9;
+    background-color: white;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ li {
 
 li.purchased {
     text-decoration: line-through;
-    background-color: #d3ffd3;
+    background-color: beige;
 }
 
 li input {
